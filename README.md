@@ -11,6 +11,7 @@ AgendaCita es una aplicación para la gestión de citas, diseñada para facilita
 - [Uso](#uso)
 - [Respaldo y Recuperación](#respaldo-y-recuperación)
 - [Validaciones](#validaciones)
+- [Mejoras Futuras](#mejoras-futuras)
 - [Contribuciones](#contribuciones)
 - [Licencia](#licencia)
 
@@ -83,6 +84,23 @@ README.md             # Documentación del proyecto
 ## Validaciones
 
 - El módulo [`validators.py`](validators.py) contiene todas las validaciones necesarias para asegurar la integridad de los datos de entrada (fechas, horas, campos obligatorios, etc.).
+
+## Mejoras Futuras
+
+Este proyecto está en constante evolución. Algunas mejoras planificadas incluyen:
+
+- 🗄️ **Base de datos relacional**: Migrar de JSON a SQLite o PostgreSQL para mejor rendimiento y escalabilidad.
+- 🌐 **Interfaz web**: Desarrollar una interfaz web con Flask o Django para acceso desde el navegador.
+- 📧 **Notificaciones**: Sistema de recordatorios por email o SMS antes de las citas.
+- 📱 **Aplicación móvil**: Versión móvil para Android e iOS.
+- 👥 **Gestión de usuarios**: Sistema de autenticación y roles (admin, usuario, invitado).
+- 📊 **Reportes y estadísticas**: Generación de informes sobre citas agendadas, canceladas, etc.
+- 🔍 **Búsqueda avanzada**: Filtros por fecha, paciente, tipo de cita, estado, etc.
+- 🔄 **Sincronización en la nube**: Respaldo automático en servicios cloud.
+- 🎨 **Interfaz gráfica de escritorio**: GUI con Tkinter o PyQt para una experiencia más amigable.
+- 📅 **Integración con calendarios**: Sincronización con Google Calendar, Outlook, etc.
+- ⏰ **Zonas horarias**: Soporte para diferentes zonas horarias.
+- 🔐 **Seguridad mejorada**: Encriptación de datos sensibles y autenticación de dos factores.
 
 ## Contribuciones
 
